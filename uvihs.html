@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Website Tiket Pesawat</title>
+
+  <style>
+
+    body{
+      margin:0;
+      font-family:Arial;
+      background:#f0f4f8;
+    }
+
+    /* NAVBAR */
+    .navbar{
+      background:#0f172a;
+      color:white;
+      padding:20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .menu{
+      display:flex;
+      gap:20px;
+    }
+
+    /* HERO */
+    .hero{
+      background:url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1600&auto=format&fit=crop');
+      height:400px;
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:white;
+      text-align:center;
+    }
+
+    .hero-box{
+      background:rgba(0,0,0,0.5);
+      padding:40px;
+      border-radius:20px;
+    }
+
+    .hero h1{
+      font-size:50px;
+    }
+
+    /* TIKET */
+    .container{
+      padding:50px;
+    }
+
+    .cards{
+      display:flex;
+      gap:30px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .card{
+      background:white;
+      width:300px;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .card img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+    }
+
+    .content{
+      padding:20px;
+    }
+
+    .harga{
+      color:#2563eb;
+      font-size:28px;
+      font-weight:bold;
+      margin:15px 0;
+    }
+
+    button{
+      background:#2563eb;
+      color:white;
+      border:none;
+      padding:12px 20px;
+      border-radius:10px;
+      cursor:pointer;
+    }
+
+    button:hover{
+      background:#1d4ed8;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:30px;
+      margin-top:50px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+
+    <h2>SkyTravel ✈️</h2>
+
+    <div class="menu">
+      <div>Pesawat</div>
+      <div>Hotel</div>
+      <div>Promo</div>
+      <div>Kontak</div>
+    </div>
+
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+
+    <div class="hero-box">
+
+      <h1>Cari Tiket Pesawat</h1>
+
+      <p>Booking tiket murah domestik & internasional</p>
+
+      <button>Klik Booking</button>
+
+    </div>
+
+  </div>
+
+  <!-- CARD -->
+  <div class="container">
+
+    <h1 align="center">Jadwal Penerbangan</h1>
+
+    <br><br>
+
+    <div class="cards">
+
+      <!-- CARD 1 -->
+      <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="content">
+
+          <h2>Garuda Indonesia</h2>
+
+          <p>Jakarta → Bali</p>
+
+          <p>08:30 - 11:15</p>
+
+          <div class="harga">
+            Rp 1.250.000
+          </div>
+
+          <button>Pesan Tiket</button>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="content">
+
+          <h2>Lion Air</h2>
+
+          <p>Jakarta → Singapore</p>
+
+          <p>13:00 - 15:10</p>
+
+          <div class="harga">
+            Rp 1.950.000
+          </div>
+
+          <button>Pesan Tiket</button>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="content">
+
+          <h2>Citilink</h2>
+
+          <p>Bandung → Yogyakarta</p>
+
+          <p>17:20 - 18:40</p>
+
+          <div class="harga">
+            Rp 780.000
+          </div>
+
+          <button>Pesan Tiket</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <h2>SkyTravel ✈️</h2>
+
+    <p>Website Booking Tiket Pesawat</p>
+
+  </footer>
+
+</body>
+</html>
